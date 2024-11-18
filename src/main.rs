@@ -35,5 +35,6 @@ fn main() {
     deck.shuffle();
     let cards = deck.deal(3);
 
-    println!("Heres your deck: {:#?}", cards);
+    println!("Heres your hand: {:#?}", cards);
+    println!("Heres your deck: {:#?}", deck);
 }
